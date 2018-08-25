@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="1">
+
+  <testsuite name="pruebas"
+    errors="3" failures="1" hostname="" id="" package="pruebas" skipped="0"
+    tests="1" time="16.70" timestamp="Sat, 25 Aug 2018 09:50:05 GMT">
+  
+    <testcase name="Los estudiantes login falied" classname="pruebas" time="16.70" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;.aviso.alert.alert-danger&gt; to be present for 4000 milliseconds.">    at Object.Los estudiantes login falied (D:\Users\crmedran1\Desktop\Maestria\Pruebas\Semana3\nightwatch\tests\pruebas.js:11:8)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;.cajaLogIn input[name=&#34;correo&#34;]&#34; using: css selector
+    at Object.Los estudiantes login falied (D:\Users\crmedran1\Desktop\Maestria\Pruebas\Semana3\nightwatch\tests\pruebas.js:8:8)
+    at Module.call (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;.cajaLogIn input[name=&#34;password&#34;]&#34; using: css selector
+    at Object.Los estudiantes login falied (D:\Users\crmedran1\Desktop\Maestria\Pruebas\Semana3\nightwatch\tests\pruebas.js:9:8)
+    at Module.call (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;.cajaLogIn .logInButton&#34; using: css selector
+    at Object.Los estudiantes login falied (D:\Users\crmedran1\Desktop\Maestria\Pruebas\Semana3\nightwatch\tests\pruebas.js:10:8)
+    at Module.call (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (D:\Users\crmedran1\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
